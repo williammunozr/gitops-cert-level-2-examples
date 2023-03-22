@@ -14,7 +14,7 @@ spec:
     path: ./image-updater/example-app/envs/staging/
    
   destination:
-    server: https://kubernetes.default.svc
+    server: https://10.5.0.82:6443
     namespace: staging
 
   # Sync policy
