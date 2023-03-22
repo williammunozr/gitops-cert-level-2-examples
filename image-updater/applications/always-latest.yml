@@ -15,7 +15,7 @@ spec:
     path: ./image-updater/example-app/envs/qa/
    
   destination:
-    server: https://kubernetes.default.svc
+    server: https://10.5.0.82:6443
     namespace: qa
 
   # Sync policy
